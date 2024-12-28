@@ -1,0 +1,20 @@
+
+.user{
+  background-color: #c2deda;
+  margin: 10px auto;
+  padding: 20px;
+  text-align: center;
+}
+.counter{
+  text-align: center;
+}
+.counter button{
+  margin: 10px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
+.counter button:hover{
+opacity: 0.8;
+cursor: pointer;
+}
