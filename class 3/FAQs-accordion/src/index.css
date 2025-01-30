@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@theme {
+  --breakpoint-mobile: 24rem;
+  --color-White: #ffffff;
+  --color-lightPink: #f9f0ff
+--color-grayishPurple: #8c6991
+--color-darkPurple: #2f1533
+}
+
+.work-sans{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
