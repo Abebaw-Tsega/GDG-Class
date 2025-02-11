@@ -2,16 +2,19 @@
 
 
 @theme {
-  --breakpoint-mobile: 24rem;
+  --breakpoint-mobile: 32rem;
   --color-White: #ffffff;
   --color-lightPink: #f9f0ff
 --color-grayishPurple: #8c6991
 --color-darkPurple: #2f1533
 }
 
-.work-sans{
-  font-family: "Work Sans", serif;
+.work-sans {
+  font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400; /* Adjust weight as needed */
   font-style: normal;
+}
+body {
+  font-family: "Work Sans", sans-serif;
 }

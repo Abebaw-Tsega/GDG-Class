@@ -2,6 +2,7 @@ import Mobile from '../assets/images/background-pattern-mobile.svg'
 import Desktop from '../assets/images/background-pattern-desktop.svg'
 import Star from '../assets/images/icon-star.svg'
 import FAQItem from './FAQItem';
+
 function FAQsAccordion() {
   const faqData = [
     {
@@ -39,7 +40,7 @@ function FAQsAccordion() {
           <img src={Star} alt="star" className='w-8' />
           <h1 className='ml-5 font-bold text-4xl  '>FAQs</h1>
         </div>
-        <div className='ml-8 mr-8 pt-8 '>
+        <div className='ml-8 mr-8 pt-8  space-y-6'>
           {faqData.map((faq, index) => (
             <FAQItem key={index} question={faq.question} answer={faq.answer} />
           ))}
